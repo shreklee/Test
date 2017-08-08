@@ -58,16 +58,4 @@ func allItemsMatch<
     
 }
 
-var stackOfStrings = Stack<String>()
-stackOfStrings.push("uno")
-stackOfStrings.push("dos")
-stackOfStrings.push("tres")
-
-var arrayOfStrings = ["uno", "dos", "tres"]
-
-if allItemsMatch(stackOfStrings, arrayOfStrings) {
-    println("All items match.")
-} else {
-    println("Not all items match.")
-}
 // 输出 "All items match."
